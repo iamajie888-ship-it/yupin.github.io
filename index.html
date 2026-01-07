@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>昱品窗簾 - 桃園專業窗簾設計 | 免費到府丈量</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Arial', sans-serif; line-height: 1.6; color: #e0e0e0; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f0f23 100%); }
+        .hero { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; position: relative; background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.05)), url('bg.jpg') center/cover; }
+        .hero h1 { font-size: 4.5rem; font-weight: 300; margin-bottom: 1rem; letter-spacing: 0.3rem; color: #f0f4f8; text-shadow: 0 2px 10px rgba(0,0,0,0.5); }
+        .hero .tagline { font-size: 1.6rem; opacity: 0.95; margin-bottom: 3rem; color: #d1d5db; }
+        .cta-btn { background: linear-gradient(45deg, #4f46e5, #7c3aed); border: none; color: #fff; padding: 1.5rem 3rem; font-size: 1.3rem; text-decoration: none; border-radius: 50px; transition: all 0.3s; display: inline-block; box-shadow: 0 10px 30px rgba(79,70,229,0.4); }
+        .cta-btn:hover { transform: translateY(-3px); box-shadow: 0 15px 40px rgba(79,70,229,0.6); }
+        nav { position: fixed; top: 2rem; right: 2rem; z-index: 1000; }
+        nav ul { list-style: none; background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); padding: 1rem; border-radius: 20px; }
+        nav li { margin: 0.5rem 0; }
+        nav a { color: #e0e0e0; text-decoration: none; opacity: 0.9; transition: all 0.3s; display: block; padding: 0.5rem 1rem; border-radius: 10px; }
+        nav a:hover { opacity: 1; background: rgba(255,255,255,0.2); }
+        section { padding: 120px 5%; max-width: 1400px; margin: 0 auto; }
+        .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem; margin: 4rem 0; }
+        .feature { text-align: center; background: rgba(255,255,255,0.05); padding: 2.5rem; border-radius: 20px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); transition: transform 0.3s; }
+        .feature:hover { transform: translateY(-10px); }
+        .feature-icon { font-size: 4rem; margin-bottom: 1rem; opacity: 0.9; }
+        .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; }
+        .project-card { background: rgba(255,255,255,0.08); padding: 2rem; border-radius: 20px; border: 1px solid rgba(255,255,255,0.15); transition: all 0.3s; }
+        .project-card:hover { transform: scale(1.02); background: rgba(255,255,255,0.12); }
+        .service-flow { background: rgba(255,255,255,0.08); padding: 3rem; border-radius: 20px; margin: 3rem 0; border: 1px solid rgba(255,255,255,0.15); }
+        .flow-steps { display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; }
+        .step { flex: 1; min-width: 200px; text-align: center; background: rgba(255,255,255,0.05); padding: 1.5rem; border-radius: 15px; }
+        footer { text-align: center; padding: 4rem; background: rgba(0,0,0,0.4); border-top: 1px solid rgba(255,255,255,0.1); color: #b0b0b0; }
+        h2 { text-align: center; font-size: 3.5rem; font-weight: 300; margin-bottom: 4rem; color: #f0f4f8; }
+        h3 { color: #e0e0e0; margin-bottom: 1rem; }
+        @media (max-width: 768px) { 
+            .hero h1 { font-size: 3rem; } 
+            nav { position: static; text-align: center; margin: 2rem 0; } 
+            nav ul { display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#services">產品</a></li>
+            <li><a href="#projects">作品</a></li>
+            <li><a href="#flow">流程</a></li>
+            <li><a href="#contact">聯絡</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <h1>昱品窗簾</h1>
+        <p class="tagline">桃園專業窗簾設計<br>免費到府丈量 ． 客製化服務<br>Soft Finishing Design Moment</p>
+        <a href="#contact" class="cta-btn">立即免費預約丈量</a>
+    </section>
+
+    <section id="services">
+        <h2>我們的產品</h2>
+        <div class="features-grid">
+            <div class="feature">
+                <div class="feature-icon">🪟</div>
+                <h3>訂製窗簾</h3>
+                <p>布簾、遮光簾、紗簾，百種布料任選，完美貼合您的空間。</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🎛️</div>
+                <h3>電動捲簾</h3>
+                <p>智慧遙控，省電又方便，現代居家必備。</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🌿</div>
+                <h3>羅馬簾 / 百葉</h3>
+                <p>北歐風格，層次感強，增添空間美學。</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🖼️</div>
+                <h3>壁紙家飾</h3>
+                <p>一站式服務，窗簾＋壁紙，完整軟裝規劃。</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>最新作品</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>桃園青埔新成屋</h3>
+                <p>全屋訂製雙層紗簾＋電動捲簾，柔和光線完美控制。</p>
+            </div>
+            <div class="project-card">
+                <h3>中壢店面改造</h3>
+                <p>防火捲簾＋羅馬簾，商業空間專業升級。</p>
+            </div>
+            <div class="project-card">
+                <h3>北歐風客廳</h3>
+                <p>棉麻布簾＋木質百葉，自然溫潤氛圍。</p>
+            </div>
+            <div class="project-card">
+                <h3>VIP 別墅專案</h3>
+                <p>進口絲絨＋智慧電動系統，奢華私宅專屬。</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="flow">
+        <div class="service-flow">
+            <h2>服務流程</h2>
+            <div class="flow-steps">
+                <div class="step">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">1</div>
+                    <h4>免費預約</h4>
+                    <p>LINE/電話，一通搞定</p>
+                </div>
+                <div class="step">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">2</div>
+                    <h4>到府丈量</h4>
+                    <p>專業師傅免費上門，精準規劃</p>
+                </div>
+                <div class="step">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">3</div>
+                    <h4>選材設計</h4>
+                    <p>店內百款布料現看現選</p>
+                </div>
+                <div class="step">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">4</div>
+                    <h4>施工安裝</h4>
+                    <p>快速完工，終身保固</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div style="max-width: 600px; margin: 0 auto; text-align: center;">
+            <h2>立即諮詢</h2>
+            <p style="font-size: 1.4rem; opacity: 0.95; margin-bottom: 2rem;">桃園當地服務，7 天出全屋報價</p>
+            <p style="font-size: 2rem; margin-bottom: 2rem;">電話：03-8888-8888<br>LINE：@yupincurtain<br>地址：桃園市平鎮區中豐路113號</p>
+            <a href="https://line.me/ti/p/@yupincurtain" class="cta-btn" target="_blank">LINE 免費預約</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 昱品窗簾. 桃園專業窗簾｜免費丈量安裝<br>Inspired by Murphy Moment. 專業．美感．服務</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(a => {
+            a.addEventListener('click', e => {
+                e.preventDefault();
+                document.querySelector(a.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
